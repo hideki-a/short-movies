@@ -1,0 +1,27 @@
+.stage {
+  block-size: 100dvh;
+  inline-size: 100vw;
+}
+
+@media screen and (min-width: 481px) {
+  .stage {
+    margin: auto;
+    block-size: 100%;
+    max-block-size: 80dvh;
+    max-inline-size: 50vh;
+    aspect-ratio: 1080 / 1920;
+  }
+}
+
+.scrollView {
+  overflow: scroll;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+}
+
+.movie {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}

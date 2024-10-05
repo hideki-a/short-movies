@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "basename": "cDUxCtEseZ",
+    "index": 1,
+    "src": "/hls/1.m3u8",
+    "poster": "/poster/1.jpg",
+    "title": "アンブレラスカイ"
+  },
+  {
+    "id": 2,
+    "basename": "oPDj04riXT",
+    "index": 2,
+    "src": "/hls/2.m3u8",
+    "poster": "/poster/2.jpg",
+    "title": "焚き火"
+  },
+  {
+    "id": 3,
+    "basename": "kwbUCl2Eva",
+    "index": 3,
+    "src": "/hls/3.m3u8",
+    "poster": "/poster/3.jpg",
+    "title": "みはら神明の里から見た瀬戸内海"
+  },
+  {
+    "id": 4,
+    "basename": "4lae0DwbdZ",
+    "index": 4,
+    "src": "/hls/4.m3u8",
+    "poster": "/poster/4.jpg",
+    "title": "ドクターイエロー"
+  },
+  {
+    "id": 5,
+    "basename": "siNw4jQYnM",
+    "index": 5,
+    "src": "/hls/5.m3u8",
+    "poster": "/poster/5.jpg",
+    "title": "御宿 敷島館"
+  }
+]

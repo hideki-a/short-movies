@@ -1,0 +1,27 @@
+#short_movies .video-js {
+  /* Override video-js.css */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+  background-color: transparent;
+}
+
+#short_movies .video-js video {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 481px) {
+  #short_movies .video-js video {
+    border-radius: 10px;
+  }
+}
+
+#short_movies .video-js .vjs-poster img {
+  object-fit: cover;
+}
+
+#short_movies .vjs-has-started .vjs-control-bar {
+  opacity: 1;
+}

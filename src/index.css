@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  height: 100dvh;
+}
+
+#short_movies {
+  height: 100dvh;
+  background-color: #111;
+}

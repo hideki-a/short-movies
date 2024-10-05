@@ -1,0 +1,24 @@
+.container {
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+  max-inline-size: 960px;
+}
+
+.listItem {
+  flex: 0 1 calc(100% / 3 - 2px);
+}
+
+.thumbnail {
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1080 / 1920;
+  vertical-align: bottom;
+}

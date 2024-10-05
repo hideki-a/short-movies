@@ -1,0 +1,53 @@
+.container {
+  position: absolute;
+  bottom: 104px;
+  right: 10px;
+}
+
+.button {
+  display: grid;
+  place-content: center;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  appearance: none;
+  border-width: 0;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .5);
+
+  &::after {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    mask: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/></svg>');
+    vertical-align: bottom;
+  }
+}
+
+.buttonLiked {
+  background-color: #fff;
+  &::after {
+    background-color: #9f0606;
+  }
+}
+
+.buttonLabel {
+  position: absolute;
+  left: -10px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.counter {
+  margin-block-start: 5px;
+  line-height: 1;
+  color: #fff;
+  font-size: 0.875rem;
+  text-shadow: 0 2px 2px #333;
+  text-align: center;
+}
