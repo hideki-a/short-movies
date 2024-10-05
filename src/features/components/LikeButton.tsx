@@ -6,10 +6,10 @@ interface LikeCount {
   voted: boolean,
 }
 
-export default function LikeButton({ id, playerInit }: { id: number, playerInit: boolean }) {
+export default function LikeButton({ objectId, playerInit }: { objectId: number, playerInit: boolean }) {
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(0);
-  const endpoint = `${import.meta.env.VITE_API_URL}/vote/${id}`;
+  const endpoint = `${import.meta.env.VITE_API_URL}/vote/${objectId}`;
 
   const fetchLikeCount = async () => {
     const response = await fetch(endpoint, { credentials: 'include' });

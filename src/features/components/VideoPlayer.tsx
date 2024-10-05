@@ -104,7 +104,7 @@ export default function VideoPlayer({ item, itemIndex, currentPlayingIndex, setC
       >
         <source src={item.src} type="application/x-mpegURL" />
       </video>
-      <LikeButton key={'like_' + item.index} id={item.id} playerInit={isInitialized} />
+      <LikeButton key={'like_' + item.index} objectId={item.id} playerInit={isInitialized} />
       <ShareButton key={'share_' + item.index} item={item} />
     </div>
   );
